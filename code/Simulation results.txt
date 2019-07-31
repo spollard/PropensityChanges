@@ -1,0 +1,21 @@
+comparison of acceptabilities between simulated 10 sites using the acceptability model 
+and the fitted acceptabilities
+
+Simulated data : simulated_10_sites
+Fitting data: 1914x10_g10
+
+total:  26044   correct:    19283   missing:    6761    added:  4768
+
+Correct total 0: 0
+Correct total 1: 12261
+Correct total 2: 6854
+Correct total 3: 25
+Estimated total 0: 0
+Estimated total 1: 14306
+Estimated total 2: 4757
+Estimated total 3: 77
+
+0   0   0   0   0   
+1   0   9082    3128    51  
+2   0   5206    1622    26  
+3   0   18  7   0   

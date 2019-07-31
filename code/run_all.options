@@ -1,0 +1,21 @@
+my $out_dir = "../data/simulated_correct_tightness/";
+
+my $generations = 2;
+
+my $tree_filename = "../data/treeoutfile_new.out";
+my $sequences_filename = "../data/simulated/sequences.fasta";
+my $acceptabilities_filename = $out_dir . "acceptabilities.fasta";
+my $tree_out_filename = $out_dir . "tree.newick";
+my $Nsites = 100;
+
+my $width = 200;
+my $height = 200;
+
+my $big_width = 2 * $width;
+my $big_height = 2 * $height;
+
+my $model_filename = $out_dir."/model";
+my $sites_dir = $out_dir."/sites/";
+my $summary_filename = $out_dir."/summary.txt";
+
+my $images_dir = $out_dir . "/images/";

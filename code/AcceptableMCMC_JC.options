@@ -1,0 +1,40 @@
+# Things to run
+run_mcmc    1
+run_stats     1
+run_graphs    1
+
+# Debug options
+debug_aggregator  0
+debug_aggregate_likelihood  0
+
+use_aggregate       0
+
+# MCMC options
+# Input
+tree_filename       ../data/1914.tree
+sequences_filename  ../data/1914x100.fasta
+generations             1000
+
+# Output
+out_directory       ../data/1914_JC/
+tree_out_filename   tree_out.newick
+sequences_out_filename     sequences.fasta
+
+time_between_prints     3
+
+max_branch_length       0.05
+
+# Model options
+
+# Sampling options
+SubRate   0.1
+sample_sub_rate   1
+sub_stdev    0.001
+
+
+
+
+# Stats options
+burnin 10
+
+

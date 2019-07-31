@@ -1,0 +1,10 @@
+
+
+tree_filename          ../data/1257.tree
+sequences_filename               ../data/sequences
+hidden_states_filename       ../data/hidden_states
+switch_rate          1
+sub_rate        1
+q_a                0.1
+q_u                0.001
+max_branch_length     0.05

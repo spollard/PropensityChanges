@@ -1,0 +1,67 @@
+# Things to run
+run_mcmc    1
+run_stats     1
+run_graphs    1
+
+# Debug options
+debug_aggregator  0
+debug_gibbs  0
+debug_aggregate_likelihood  0
+
+gibbs_aggregate    0
+use_aggregate       0
+
+# MCMC options
+# Input
+tree_filename       ../data/1914.tree
+sequences_filename  ../data/1914x100.fasta
+acceptables_filename  ../data/1914x100.acceptables
+generations             1000
+
+# Output
+out_directory       ../data/1914x100_g1000/
+tree_out_filename   tree_out.newick
+sequences_out_filename     sequences.fasta
+acceptables_out_filename    acceptabilities
+
+time_between_prints     30
+
+
+
+max_branch_length       0.05
+
+# Sampling options
+sample_acceptabilities   1
+resample_acceptabilities_probability   0.1
+
+Prior_A     0.99
+sample_residue_acceptability_prior   0
+prior_stdev    0.01
+
+SwitchProb  0.1
+sample_switch_rate   1
+switch_stdev    0.1
+
+SubProb   0.1
+sample_sub_rate   1
+sub_stdev    0.1
+
+
+# Model options
+# rate of substituting from unacceptable to acceptable
+q_a     0.1    
+# rate of substituting from acceptable to unacceptable
+q_u     0.000001
+# rate of substituting from unacceptable to unacceptable
+q_u_u     0.000001
+
+
+
+# Prior on acceptabiliy size
+priors     [0.00001, 0.5, 0.05, 0.0001]
+
+
+# Stats options
+burnin 200
+
+

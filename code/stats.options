@@ -1,0 +1,6 @@
+
+model_filename          ../data/3x1/model
+sites_dir               ../data/3x1/sites/
+burnin                  100
+skipped_columns         0
+summary_out_filename       ../data/3x1/summary2.txt
